@@ -11,34 +11,6 @@ import { toast } from 'sonner'
 import { useDispatch, useSelector } from 'react-redux'
 import { setLoading } from '@/redux/authSlice'
 import { Loader2 } from 'lucide-react'
-// const RadioGroup = ({ value, onChange, children }) => {
-//     return (
-//         <div role="group" aria-labelledby="radio-group" className='flex items-center space-x-2'>
-//             {React.Children.map(children, child => {
-//                 return React.cloneElement(child, {
-//                     checked: child.props.value === value,
-//                     onChange: () => onChange(child.props.value)
-//                 });
-//             })}
-//         </div>
-//     );
-// };
-
-// const RadioGroupItem = ({ value, id, checked, onChange }) => {
-//     return (
-//         <label className="flex items-center space-x-2">
-//             <input
-//                 type="radio"
-//                 value={value}
-//                 id={id}
-//                 checked={checked}
-//                 onChange={onChange}
-//                 className="form-radio"
-//             />
-//             <span>{value}</span>
-//         </label>
-//     );
-// };
 
 const Signup = () => {
     //const [selectedRole, setSelectedRole] = useState('default'); // State to manage selected radio button
